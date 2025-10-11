@@ -1,141 +1,551 @@
-model_name,model_size_mb,domain,query,correct_doc_index,success,response_time_seconds,top_score,top_document_index,top_document,correct_answer,rank_2_score,rank_3_score,rank_4_score,rank_5_score,all_scores,error,timestamp
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,geography,What is the capital of France?,4,True,0.099,0.0,3,The currency of France is the Euro.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.298442
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,technology,How do I implement a binary search algorithm?,0,True,0.084,0.0,3,Hash tables provide O(1) lookup time on average.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.397436
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,medicine,What are the symptoms of diabetes?,0,True,0.087,0.0,3,Regular exercise helps maintain cardiovascular health.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.481871
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,law,What is the statute of limitations for fraud?,0,True,0.085,0.0,3,The burden of proof in civil cases is preponderance of evidence.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.569252
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,cooking,How do you make a perfect risotto?,0,True,0.075,0.0,4,The final risotto should be creamy and flow slowly on the plate.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.654852
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,finance,What is compound interest?,0,True,0.092,0.0,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.729829
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,history,When did World War II end?,0,True,0.079,0.0,4,The atomic bombs on Hiroshima and Nagasaki led to Japan's surrender.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.822309
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,sports,What are the rules of offside in soccer?,0,True,0.079,0.0,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.901953
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,literature,Who wrote Pride and Prejudice?,0,True,0.082,0.0,1,Charles Dickens is known for novels like Oliver Twist and Great Expectations.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:04.982125
-Qwen3-Reranker-0.6B.Q4_K_M.gguf,461.42,science,What is photosynthesis?,0,True,0.084,0.0,3,Carbon dioxide and water are converted into glucose and oxygen.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:05.063901
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,geography,What is the capital of France?,4,True,0.379,0.0,0,The Eiffel Tower is a famous landmark in Paris.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:09.240708
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,technology,How do I implement a binary search algorithm?,0,True,0.363,0.0,3,Hash tables provide O(1) lookup time on average.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:09.620662
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,medicine,What are the symptoms of diabetes?,0,True,0.353,0.0,0,Common diabetes symptoms include increased thirst and frequent urination.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:09.983826
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,law,What is the statute of limitations for fraud?,0,True,0.347,0.0,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:10.337416
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,cooking,How do you make a perfect risotto?,0,True,0.333,0.0,2,Using arborio or carnaroli rice is essential for creamy risotto.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:10.684945
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,finance,What is compound interest?,0,True,0.354,0.0,4,Inflation reduces the purchasing power of money over time.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:11.018059
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,history,When did World War II end?,0,True,0.34,0.0,0,World War II ended in 1945 with the surrender of Japan.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:11.372553
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,sports,What are the rules of offside in soccer?,0,True,0.342,0.0,4,Players cannot be offside in their own half of the field.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:11.712907
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,literature,Who wrote Pride and Prejudice?,0,True,0.334,0.0,4,Shakespeare is considered the greatest playwright in English literature.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:12.055270
-Qwen3-Reranker-4B.Q4_K_M.gguf,2589.34,science,What is photosynthesis?,0,True,0.359,0.0,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:12.389470
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,geography,What is the capital of France?,4,True,0.623,0.0,2,Berlin is the capital of Germany.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:16.833612
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,technology,How do I implement a binary search algorithm?,0,True,0.536,0.0,0,Binary search works by repeatedly dividing the search interval in half.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:17.457355
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,medicine,What are the symptoms of diabetes?,0,True,0.538,0.0,0,Common diabetes symptoms include increased thirst and frequent urination.,True,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:17.993408
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,law,What is the statute of limitations for fraud?,0,True,0.534,0.0,4,State laws vary on when the statute of limitations clock starts.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:18.531997
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,cooking,How do you make a perfect risotto?,0,True,0.525,0.0,2,Using arborio or carnaroli rice is essential for creamy risotto.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:19.066027
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,finance,What is compound interest?,0,True,0.543,0.0,2,Simple interest is calculated only on the principal amount.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:19.591576
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,history,When did World War II end?,0,True,0.526,0.0,2,The war in Europe ended in May 1945 with Germany's surrender.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:20.134590
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,sports,What are the rules of offside in soccer?,0,True,0.536,0.0,1,Basketball has a shot clock of 24 seconds in the NBA.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:20.660761
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,literature,Who wrote Pride and Prejudice?,0,True,0.527,0.0,1,Charles Dickens is known for novels like Oliver Twist and Great Expectations.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:21.196705
-Qwen3-Reranker-8B.Q4_K_M.gguf,4793.42,science,What is photosynthesis?,0,True,0.543,0.0,1,Cellular respiration breaks down glucose to produce ATP energy.,False,0.0,0.0,0.0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0]",,2025-10-11T12:00:21.724347
-bge-reranker-base-q4_k_m.gguf,208.92,geography,What is the capital of France?,4,True,0.037,10.0553,0,The Eiffel Tower is a famous landmark in Paris.,False,9.9132,7.6968,5.6221,-2.7288,"[10.0553, 9.9132, 7.6968, 5.6221, -2.7288]",,2025-10-11T12:00:25.408297
-bge-reranker-base-q4_k_m.gguf,208.92,technology,How do I implement a binary search algorithm?,0,True,0.024,3.5884,0,Binary search works by repeatedly dividing the search interval in half.,True,1.3324,-0.4193,-3.355,-10.0513,"[3.5884, 1.3324, -0.4193, -3.355, -10.0513]",,2025-10-11T12:00:25.445448
-bge-reranker-base-q4_k_m.gguf,208.92,medicine,What are the symptoms of diabetes?,0,True,0.025,7.0155,0,Common diabetes symptoms include increased thirst and frequent urination.,True,2.947,0.001,-0.7586,-0.981,"[7.0155, 2.947, 0.001, -0.7586, -0.981]",,2025-10-11T12:00:25.469784
-bge-reranker-base-q4_k_m.gguf,208.92,law,What is the statute of limitations for fraud?,0,True,0.029,4.7428,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,2.7642,-3.5391,-7.4317,-8.9076,"[4.7428, 2.7642, -3.5391, -7.4317, -8.9076]",,2025-10-11T12:00:25.494693
-bge-reranker-base-q4_k_m.gguf,208.92,cooking,How do you make a perfect risotto?,0,True,0.035,2.061,0,Risotto requires constant stirring and gradual addition of warm broth.,True,1.8297,0.3325,-0.7595,-1.5993,"[2.061, 1.8297, 0.3325, -0.7595, -1.5993]",,2025-10-11T12:00:25.523517
-bge-reranker-base-q4_k_m.gguf,208.92,finance,What is compound interest?,0,True,0.028,7.7671,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,-1.5957,-2.0992,-3.5162,-4.9998,"[7.7671, -1.5957, -2.0992, -3.5162, -4.9998]",,2025-10-11T12:00:25.558336
-bge-reranker-base-q4_k_m.gguf,208.92,history,When did World War II end?,0,True,0.03,10.2981,2,The war in Europe ended in May 1945 with Germany's surrender.,False,6.3407,5.67,0.3852,-2.4122,"[10.2981, 6.3407, 5.67, 0.3852, -2.4122]",,2025-10-11T12:00:25.586875
-bge-reranker-base-q4_k_m.gguf,208.92,sports,What are the rules of offside in soccer?,0,True,0.028,9.9326,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,7.1358,2.5357,-1.1785,-1.6034,"[9.9326, 7.1358, 2.5357, -1.1785, -1.6034]",,2025-10-11T12:00:25.617076
-bge-reranker-base-q4_k_m.gguf,208.92,literature,Who wrote Pride and Prejudice?,0,True,0.024,8.6273,1,Charles Dickens is known for novels like Oliver Twist and Great Expectations.,False,5.5779,-1.1476,-5.2602,-7.22,"[8.6273, 5.5779, -1.1476, -5.2602, -7.22]",,2025-10-11T12:00:25.644945
-bge-reranker-base-q4_k_m.gguf,208.92,science,What is photosynthesis?,0,True,0.025,6.6832,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,0.1372,-2.4262,-3.2338,-4.2066,"[6.6832, 0.1372, -2.4262, -3.2338, -4.2066]",,2025-10-11T12:00:25.669159
-bge-reranker-large-q4_k_m.gguf,388.07,geography,What is the capital of France?,4,True,0.077,9.5316,1,"Paris is known for its art, fashion, and culture.",False,8.4957,5.5962,1.914,-6.7935,"[9.5316, 8.4957, 5.5962, 1.914, -6.7935]",,2025-10-11T12:00:28.839347
-bge-reranker-large-q4_k_m.gguf,388.07,technology,How do I implement a binary search algorithm?,0,True,0.064,-0.2708,0,Binary search works by repeatedly dividing the search interval in half.,True,-2.434,-6.5004,-7.3081,-9.4781,"[-0.2708, -2.434, -6.5004, -7.3081, -9.4781]",,2025-10-11T12:00:28.917242
-bge-reranker-large-q4_k_m.gguf,388.07,medicine,What are the symptoms of diabetes?,0,True,0.06,5.8178,0,Common diabetes symptoms include increased thirst and frequent urination.,True,4.0451,2.124,-0.5919,-7.4986,"[5.8178, 4.0451, 2.124, -0.5919, -7.4986]",,2025-10-11T12:00:28.981508
-bge-reranker-large-q4_k_m.gguf,388.07,law,What is the statute of limitations for fraud?,0,True,0.062,5.0924,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,-2.1287,-6.2142,-6.9608,-8.2255,"[5.0924, -2.1287, -6.2142, -6.9608, -8.2255]",,2025-10-11T12:00:29.041568
-bge-reranker-large-q4_k_m.gguf,388.07,cooking,How do you make a perfect risotto?,0,True,0.061,1.6856,0,Risotto requires constant stirring and gradual addition of warm broth.,True,0.1146,-1.1997,-2.2807,-5.5947,"[1.6856, 0.1146, -1.1997, -2.2807, -5.5947]",,2025-10-11T12:00:29.104032
-bge-reranker-large-q4_k_m.gguf,388.07,finance,What is compound interest?,0,True,0.058,7.5606,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.3859,-1.3998,-1.6216,-2.9686,"[7.5606, 0.3859, -1.3998, -1.6216, -2.9686]",,2025-10-11T12:00:29.165287
-bge-reranker-large-q4_k_m.gguf,388.07,history,When did World War II end?,0,True,0.06,8.422,2,The war in Europe ended in May 1945 with Germany's surrender.,False,6.7258,6.3302,5.4208,4.5742,"[8.422, 6.7258, 6.3302, 5.4208, 4.5742]",,2025-10-11T12:00:29.223723
-bge-reranker-large-q4_k_m.gguf,388.07,sports,What are the rules of offside in soccer?,0,True,0.075,3.4967,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,3.4586,-1.3599,-1.9254,-9.4168,"[3.4967, 3.4586, -1.3599, -1.9254, -9.4168]",,2025-10-11T12:00:29.283559
-bge-reranker-large-q4_k_m.gguf,388.07,literature,Who wrote Pride and Prejudice?,0,True,0.058,6.5819,0,Pride and Prejudice was written by Jane Austen in 1813.,True,3.0546,1.729,-3.0998,-4.1578,"[6.5819, 3.0546, 1.729, -3.0998, -4.1578]",,2025-10-11T12:00:29.358968
-bge-reranker-large-q4_k_m.gguf,388.07,science,What is photosynthesis?,0,True,0.054,7.469,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,3.0209,0.0192,-1.0145,-2.673,"[7.469, 3.0209, 0.0192, -1.0145, -2.673]",,2025-10-11T12:00:29.417512
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,geography,What is the capital of France?,4,True,0.201,0.6555,0,The Eiffel Tower is a famous landmark in Paris.,False,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:32.610937
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,technology,How do I implement a binary search algorithm?,0,True,0.201,0.6555,0,Binary search works by repeatedly dividing the search interval in half.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:32.811742
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,medicine,What are the symptoms of diabetes?,0,True,0.208,0.6555,0,Common diabetes symptoms include increased thirst and frequent urination.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:33.012604
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,law,What is the statute of limitations for fraud?,0,True,0.199,0.6555,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:33.220933
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,cooking,How do you make a perfect risotto?,0,True,0.192,0.6555,0,Risotto requires constant stirring and gradual addition of warm broth.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:33.419895
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,finance,What is compound interest?,0,True,0.2,0.6555,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:33.612219
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,history,When did World War II end?,0,True,0.195,0.6555,0,World War II ended in 1945 with the surrender of Japan.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:33.812192
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,sports,What are the rules of offside in soccer?,0,True,0.2,0.6555,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:34.006945
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,literature,Who wrote Pride and Prejudice?,0,True,0.199,0.6555,0,Pride and Prejudice was written by Jane Austen in 1813.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:34.207237
-bge-reranker-v2-gemma.Q4_K_M.gguf,1554.74,science,What is photosynthesis?,0,True,0.192,0.6555,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,0.6555,0.6555,0.6555,0.6555,"[0.6555, 0.6555, 0.6555, 0.6555, 0.6555]",,2025-10-11T12:00:34.406596
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,geography,What is the capital of France?,4,True,0.101,8.1388,4,The city of Paris serves as the capital of France.,True,1.0144,-0.3991,-4.5394,-5.2727,"[8.1388, 1.0144, -0.3991, -4.5394, -5.2727]",,2025-10-11T12:00:37.686300
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,technology,How do I implement a binary search algorithm?,0,True,0.085,1.0211,0,Binary search works by repeatedly dividing the search interval in half.,True,-3.7959,-6.5522,-6.937,-10.906,"[1.0211, -3.7959, -6.5522, -6.937, -10.906]",,2025-10-11T12:00:37.787305
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,medicine,What are the symptoms of diabetes?,0,True,0.094,4.4403,0,Common diabetes symptoms include increased thirst and frequent urination.,True,-1.873,-4.9537,-8.2328,-10.9942,"[4.4403, -1.873, -4.9537, -8.2328, -10.9942]",,2025-10-11T12:00:37.872994
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,law,What is the statute of limitations for fraud?,0,True,0.067,5.536,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,-3.2605,-4.8091,-8.6694,-9.2734,"[5.536, -3.2605, -4.8091, -8.6694, -9.2734]",,2025-10-11T12:00:37.967306
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,cooking,How do you make a perfect risotto?,0,True,0.062,-1.1528,0,Risotto requires constant stirring and gradual addition of warm broth.,True,-2.2051,-2.601,-6.1726,-8.2626,"[-1.1528, -2.2051, -2.601, -6.1726, -8.2626]",,2025-10-11T12:00:38.034195
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,finance,What is compound interest?,0,True,0.06,7.871,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,1.7947,-6.7982,-9.8291,-10.277,"[7.871, 1.7947, -6.7982, -9.8291, -10.277]",,2025-10-11T12:00:38.096245
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,history,When did World War II end?,0,True,0.07,6.4334,0,World War II ended in 1945 with the surrender of Japan.,True,2.4929,-1.5425,-4.4868,-7.3012,"[6.4334, 2.4929, -1.5425, -4.4868, -7.3012]",,2025-10-11T12:00:38.156766
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,sports,What are the rules of offside in soccer?,0,True,0.069,-0.164,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,-1.5193,-2.0637,-6.8941,-10.59,"[-0.164, -1.5193, -2.0637, -6.8941, -10.59]",,2025-10-11T12:00:38.226972
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,literature,Who wrote Pride and Prejudice?,0,True,0.058,8.3009,0,Pride and Prejudice was written by Jane Austen in 1813.,True,-3.4265,-4.0292,-4.4146,-6.5552,"[8.3009, -3.4265, -4.0292, -4.4146, -6.5552]",,2025-10-11T12:00:38.296190
-bge-reranker-v2-m3-Q4_K_M.gguf,418.07,science,What is photosynthesis?,0,True,0.058,7.7714,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,-5.285,-5.9244,-5.9609,-6.1164,"[7.7714, -5.285, -5.9244, -5.9609, -6.1164]",,2025-10-11T12:00:38.354144
-colbertv2.0.Q4_K_M.gguf,70.83,geography,What is the capital of France?,4,True,0.049,0.1614,1,"Paris is known for its art, fashion, and culture.",False,-0.0238,-0.0681,-0.1592,-0.2232,"[0.1614, -0.0238, -0.0681, -0.1592, -0.2232]",,2025-10-11T12:00:41.551271
-colbertv2.0.Q4_K_M.gguf,70.83,technology,How do I implement a binary search algorithm?,0,True,0.034,0.0492,1,Linear search checks each element sequentially until found.,False,-0.2529,-0.2692,-0.3184,-0.3632,"[0.0492, -0.2529, -0.2692, -0.3184, -0.3632]",,2025-10-11T12:00:41.600880
-colbertv2.0.Q4_K_M.gguf,70.83,medicine,What are the symptoms of diabetes?,0,True,0.036,0.6042,3,Regular exercise helps maintain cardiovascular health.,False,0.5419,0.3868,0.295,0.241,"[0.6042, 0.5419, 0.3868, 0.295, 0.241]",,2025-10-11T12:00:41.635531
-colbertv2.0.Q4_K_M.gguf,70.83,law,What is the statute of limitations for fraud?,0,True,0.039,0.7432,4,State laws vary on when the statute of limitations clock starts.,False,0.6525,0.4591,0.4296,0.3215,"[0.7432, 0.6525, 0.4591, 0.4296, 0.3215]",,2025-10-11T12:00:41.671510
-colbertv2.0.Q4_K_M.gguf,70.83,cooking,How do you make a perfect risotto?,0,True,0.035,0.1044,3,Sautéing vegetables before adding rice builds flavor depth.,False,-0.0028,-0.0789,-0.084,-0.0945,"[0.1044, -0.0028, -0.0789, -0.084, -0.0945]",,2025-10-11T12:00:41.711068
-colbertv2.0.Q4_K_M.gguf,70.83,finance,What is compound interest?,0,True,0.039,0.454,3,Compound interest can significantly accelerate investment growth over time.,False,0.3085,0.3043,0.1179,-0.1467,"[0.454, 0.3085, 0.3043, 0.1179, -0.1467]",,2025-10-11T12:00:41.745786
-colbertv2.0.Q4_K_M.gguf,70.83,history,When did World War II end?,0,True,0.043,0.1086,4,The atomic bombs on Hiroshima and Nagasaki led to Japan's surrender.,False,-0.0796,-0.0813,-0.1235,-0.2222,"[0.1086, -0.0796, -0.0813, -0.1235, -0.2222]",,2025-10-11T12:00:41.784876
-colbertv2.0.Q4_K_M.gguf,70.83,sports,What are the rules of offside in soccer?,0,True,0.046,0.0045,1,Basketball has a shot clock of 24 seconds in the NBA.,False,-0.0042,-0.0213,-0.0673,-0.3221,"[0.0045, -0.0042, -0.0213, -0.0673, -0.3221]",,2025-10-11T12:00:41.827783
-colbertv2.0.Q4_K_M.gguf,70.83,literature,Who wrote Pride and Prejudice?,0,True,0.038,-0.1775,2,"The novel explores themes of marriage, class, and social expectations.",False,-0.4375,-0.4469,-0.447,-0.5628,"[-0.1775, -0.4375, -0.4469, -0.447, -0.5628]",,2025-10-11T12:00:41.874145
-colbertv2.0.Q4_K_M.gguf,70.83,science,What is photosynthesis?,0,True,0.034,-0.0016,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,-0.0264,-0.0508,-0.1128,-0.1817,"[-0.0016, -0.0264, -0.0508, -0.1128, -0.1817]",,2025-10-11T12:00:41.912486
-jina-reranker-m0-Q4_K_M.gguf,940.37,geography,What is the capital of France?,4,True,0.19,4.414,0,The Eiffel Tower is a famous landmark in Paris.,False,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:44.992663
-jina-reranker-m0-Q4_K_M.gguf,940.37,technology,How do I implement a binary search algorithm?,0,True,0.167,3.0568,0,Binary search works by repeatedly dividing the search interval in half.,True,3.0568,3.0568,3.0568,3.0568,"[3.0568, 3.0568, 3.0568, 3.0568, 3.0568]",,2025-10-11T12:00:45.185042
-jina-reranker-m0-Q4_K_M.gguf,940.37,medicine,What are the symptoms of diabetes?,0,True,0.162,4.414,0,Common diabetes symptoms include increased thirst and frequent urination.,True,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:45.352428
-jina-reranker-m0-Q4_K_M.gguf,940.37,law,What is the statute of limitations for fraud?,0,True,0.154,4.414,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:45.517247
-jina-reranker-m0-Q4_K_M.gguf,940.37,cooking,How do you make a perfect risotto?,0,True,0.152,3.0568,0,Risotto requires constant stirring and gradual addition of warm broth.,True,3.0568,3.0568,3.0568,3.0568,"[3.0568, 3.0568, 3.0568, 3.0568, 3.0568]",,2025-10-11T12:00:45.671187
-jina-reranker-m0-Q4_K_M.gguf,940.37,finance,What is compound interest?,0,True,0.156,4.414,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:45.823312
-jina-reranker-m0-Q4_K_M.gguf,940.37,history,When did World War II end?,0,True,0.162,2.3288,0,World War II ended in 1945 with the surrender of Japan.,True,2.3288,2.3288,2.3288,2.3288,"[2.3288, 2.3288, 2.3288, 2.3288, 2.3288]",,2025-10-11T12:00:45.979528
-jina-reranker-m0-Q4_K_M.gguf,940.37,sports,What are the rules of offside in soccer?,0,True,0.146,4.414,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:46.141268
-jina-reranker-m0-Q4_K_M.gguf,940.37,literature,Who wrote Pride and Prejudice?,0,True,0.151,3.9462,0,Pride and Prejudice was written by Jane Austen in 1813.,True,3.9462,3.9462,3.9462,3.9462,"[3.9462, 3.9462, 3.9462, 3.9462, 3.9462]",,2025-10-11T12:00:46.287773
-jina-reranker-m0-Q4_K_M.gguf,940.37,science,What is photosynthesis?,0,True,0.165,4.414,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,4.414,4.414,4.414,4.414,"[4.414, 4.414, 4.414, 4.414, 4.414]",,2025-10-11T12:00:46.438448
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,geography,What is the capital of France?,4,True,0.026,0.1179,4,The city of Paris serves as the capital of France.,True,0.0346,0.0334,0.027,0.0228,"[0.1179, 0.0346, 0.0334, 0.027, 0.0228]",,2025-10-11T12:00:49.693298
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,technology,How do I implement a binary search algorithm?,0,True,0.02,0.0287,4,Binary search requires the array to be sorted first.,False,0.0259,0.0184,0.0169,0.0075,"[0.0287, 0.0259, 0.0184, 0.0169, 0.0075]",,2025-10-11T12:00:49.719361
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,medicine,What are the symptoms of diabetes?,0,True,0.012,0.0929,0,Common diabetes symptoms include increased thirst and frequent urination.,True,0.0294,0.0258,0.018,0.0123,"[0.0929, 0.0294, 0.0258, 0.018, 0.0123]",,2025-10-11T12:00:49.739941
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,law,What is the statute of limitations for fraud?,0,True,0.016,0.07,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,0.0431,0.0385,0.0096,-0.0009,"[0.07, 0.0431, 0.0385, 0.0096, -0.0009]",,2025-10-11T12:00:49.752346
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,cooking,How do you make a perfect risotto?,0,True,0.013,0.0406,2,Using arborio or carnaroli rice is essential for creamy risotto.,False,0.0328,0.0287,0.0046,-0.0055,"[0.0406, 0.0328, 0.0287, 0.0046, -0.0055]",,2025-10-11T12:00:49.768720
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,finance,What is compound interest?,0,True,0.009,0.0316,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.0312,0.0197,0.0038,0.0025,"[0.0316, 0.0312, 0.0197, 0.0038, 0.0025]",,2025-10-11T12:00:49.781329
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,history,When did World War II end?,0,True,0.01,0.0975,0,World War II ended in 1945 with the surrender of Japan.,True,0.0427,0.0251,0.0139,0.0122,"[0.0975, 0.0427, 0.0251, 0.0139, 0.0122]",,2025-10-11T12:00:49.790410
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,sports,What are the rules of offside in soccer?,0,True,0.013,0.0657,2,The offside rule doesn't apply if the ball comes from a throw-in.,False,0.0422,0.0283,0.0257,0.0132,"[0.0657, 0.0422, 0.0283, 0.0257, 0.0132]",,2025-10-11T12:00:49.800477
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,literature,Who wrote Pride and Prejudice?,0,True,0.012,0.1542,0,Pride and Prejudice was written by Jane Austen in 1813.,True,0.0263,0.02,0.0129,0.0006,"[0.1542, 0.0263, 0.02, 0.0129, 0.0006]",,2025-10-11T12:00:49.813706
-jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,science,What is photosynthesis?,0,True,0.01,0.0419,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,0.0292,0.0165,0.015,0.01,"[0.0419, 0.0292, 0.0165, 0.015, 0.01]",,2025-10-11T12:00:49.825581
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,geography,What is the capital of France?,4,True,0.06,1.6936,4,The city of Paris serves as the capital of France.,True,0.0752,-1.6581,-1.6684,-2.3312,"[1.6936, 0.0752, -1.6581, -1.6684, -2.3312]",,2025-10-11T12:00:52.890148
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,technology,How do I implement a binary search algorithm?,0,True,0.04,0.6445,0,Binary search works by repeatedly dividing the search interval in half.,True,0.2202,-1.2449,-1.9843,-2.5704,"[0.6445, 0.2202, -1.2449, -1.9843, -2.5704]",,2025-10-11T12:00:52.950253
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,medicine,What are the symptoms of diabetes?,0,True,0.038,1.2007,0,Common diabetes symptoms include increased thirst and frequent urination.,True,-1.0331,-1.3374,-2.8074,-2.9403,"[1.2007, -1.0331, -1.3374, -2.8074, -2.9403]",,2025-10-11T12:00:52.990953
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,law,What is the statute of limitations for fraud?,0,True,0.039,1.5176,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,-0.3349,-1.4593,-2.7767,-2.9866,"[1.5176, -0.3349, -1.4593, -2.7767, -2.9866]",,2025-10-11T12:00:53.029592
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,cooking,How do you make a perfect risotto?,0,True,0.047,0.1333,0,Risotto requires constant stirring and gradual addition of warm broth.,True,0.0491,-0.4949,-1.9689,-2.2539,"[0.1333, 0.0491, -0.4949, -1.9689, -2.2539]",,2025-10-11T12:00:53.068595
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,finance,What is compound interest?,0,True,0.041,2.0066,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.3568,-1.503,-2.7792,-2.8448,"[2.0066, 0.3568, -1.503, -2.7792, -2.8448]",,2025-10-11T12:00:53.115330
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,history,When did World War II end?,0,True,0.039,1.4971,0,World War II ended in 1945 with the surrender of Japan.,True,0.7855,-0.9347,-1.9189,-2.3471,"[1.4971, 0.7855, -0.9347, -1.9189, -2.3471]",,2025-10-11T12:00:53.156993
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,sports,What are the rules of offside in soccer?,0,True,0.044,1.3254,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,0.4863,0.1354,-1.7814,-3.2271,"[1.3254, 0.4863, 0.1354, -1.7814, -3.2271]",,2025-10-11T12:00:53.196307
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,literature,Who wrote Pride and Prejudice?,0,True,0.036,1.6673,0,Pride and Prejudice was written by Jane Austen in 1813.,True,-1.7372,-2.0816,-2.1302,-2.3814,"[1.6673, -1.7372, -2.0816, -2.1302, -2.3814]",,2025-10-11T12:00:53.240761
-jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,science,What is photosynthesis?,0,True,0.039,2.14,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,-0.8222,-2.2902,-2.3324,-2.5267,"[2.14, -0.8222, -2.2902, -2.3324, -2.5267]",,2025-10-11T12:00:53.276563
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,geography,What is the capital of France?,4,True,0.042,-0.0708,4,The city of Paris serves as the capital of France.,True,-0.2073,-0.2094,-0.2148,-0.2383,"[-0.0708, -0.2073, -0.2094, -0.2148, -0.2383]",,2025-10-11T12:00:56.464760
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,technology,How do I implement a binary search algorithm?,0,True,0.019,-0.0995,0,Binary search works by repeatedly dividing the search interval in half.,True,-0.1357,-0.232,-0.3011,-0.332,"[-0.0995, -0.1357, -0.232, -0.3011, -0.332]",,2025-10-11T12:00:56.506693
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,medicine,What are the symptoms of diabetes?,0,True,0.016,-0.0836,0,Common diabetes symptoms include increased thirst and frequent urination.,True,-0.1792,-0.1842,-0.3426,-0.3545,"[-0.0836, -0.1792, -0.1842, -0.3426, -0.3545]",,2025-10-11T12:00:56.525438
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,law,What is the statute of limitations for fraud?,0,True,0.017,-0.0654,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,-0.1813,-0.2476,-0.3211,-0.3356,"[-0.0654, -0.1813, -0.2476, -0.3211, -0.3356]",,2025-10-11T12:00:56.541144
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,cooking,How do you make a perfect risotto?,0,True,0.016,-0.1451,0,Risotto requires constant stirring and gradual addition of warm broth.,True,-0.1616,-0.1806,-0.3212,-0.323,"[-0.1451, -0.1616, -0.1806, -0.3212, -0.323]",,2025-10-11T12:00:56.558131
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,finance,What is compound interest?,0,True,0.017,-0.0617,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,-0.0944,-0.2113,-0.3174,-0.3297,"[-0.0617, -0.0944, -0.2113, -0.3174, -0.3297]",,2025-10-11T12:00:56.574529
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,history,When did World War II end?,0,True,0.018,-0.0659,0,World War II ended in 1945 with the surrender of Japan.,True,-0.1103,-0.1303,-0.1918,-0.212,"[-0.0659, -0.1103, -0.1303, -0.1918, -0.212]",,2025-10-11T12:00:56.591322
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,sports,What are the rules of offside in soccer?,0,True,0.019,-0.1119,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,-0.1294,-0.138,-0.229,-0.3411,"[-0.1119, -0.1294, -0.138, -0.229, -0.3411]",,2025-10-11T12:00:56.609495
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,literature,Who wrote Pride and Prejudice?,0,True,0.018,-0.0464,0,Pride and Prejudice was written by Jane Austen in 1813.,True,-0.2165,-0.2272,-0.2513,-0.2584,"[-0.0464, -0.2165, -0.2272, -0.2513, -0.2584]",,2025-10-11T12:00:56.628555
-ms-marco-MiniLM-L12-v2.Q4_K_M.gguf,27.74,science,What is photosynthesis?,0,True,0.018,-0.0943,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,-0.2514,-0.2534,-0.2659,-0.2725,"[-0.0943, -0.2514, -0.2534, -0.2659, -0.2725]",,2025-10-11T12:00:56.646191
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,geography,What is the capital of France?,4,True,0.026,0.0903,4,The city of Paris serves as the capital of France.,True,0.0593,0.0521,0.038,0.0169,"[0.0903, 0.0593, 0.0521, 0.038, 0.0169]",,2025-10-11T12:00:59.698007
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,technology,How do I implement a binary search algorithm?,0,True,0.012,0.0897,0,Binary search works by repeatedly dividing the search interval in half.,True,0.082,0.0714,0.0534,-0.0192,"[0.0897, 0.082, 0.0714, 0.0534, -0.0192]",,2025-10-11T12:00:59.723866
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,medicine,What are the symptoms of diabetes?,0,True,0.012,0.0709,2,Diabetes can lead to high blood sugar levels over time.,False,0.0395,0.0302,0.0161,0.0027,"[0.0709, 0.0395, 0.0302, 0.0161, 0.0027]",,2025-10-11T12:00:59.736471
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,law,What is the statute of limitations for fraud?,0,True,0.01,0.0699,2,Criminal fraud can carry serious penalties including imprisonment.,False,0.0683,0.0521,0.0284,0.019,"[0.0699, 0.0683, 0.0521, 0.0284, 0.019]",,2025-10-11T12:00:59.748471
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,cooking,How do you make a perfect risotto?,0,True,0.012,0.0514,4,The final risotto should be creamy and flow slowly on the plate.,False,0.0191,0.0017,-0.0148,-0.0153,"[0.0514, 0.0191, 0.0017, -0.0148, -0.0153]",,2025-10-11T12:00:59.758111
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,finance,What is compound interest?,0,True,0.011,0.0457,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,0.0177,-0.0107,-0.011,-0.0688,"[0.0457, 0.0177, -0.0107, -0.011, -0.0688]",,2025-10-11T12:00:59.769931
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,history,When did World War II end?,0,True,0.009,0.0262,1,The Treaty of Versailles concluded World War I in 1919.,False,0.0243,0.0174,0.0108,0.0025,"[0.0262, 0.0243, 0.0174, 0.0108, 0.0025]",,2025-10-11T12:00:59.781235
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,sports,What are the rules of offside in soccer?,0,True,0.011,0.0832,3,Soccer matches consist of two 45-minute halves.,False,0.058,0.0556,0.0351,0.0257,"[0.0832, 0.058, 0.0556, 0.0351, 0.0257]",,2025-10-11T12:00:59.790513
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,literature,Who wrote Pride and Prejudice?,0,True,0.012,0.0633,0,Pride and Prejudice was written by Jane Austen in 1813.,True,0.0602,0.0291,0.0269,0.026,"[0.0633, 0.0602, 0.0291, 0.0269, 0.026]",,2025-10-11T12:00:59.801193
-ms-marco-MiniLM-L4-v2.Q4_K_M.gguf,18.07,science,What is photosynthesis?,0,True,0.009,-0.008,4,Mitosis is the process of cell division in eukaryotic cells.,False,-0.0173,-0.0622,-0.0696,-0.0709,"[-0.008, -0.0173, -0.0622, -0.0696, -0.0709]",,2025-10-11T12:00:59.812855
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,geography,What is the capital of France?,4,True,0.185,-0.3302,0,The Eiffel Tower is a famous landmark in Paris.,False,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:02.851012
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,technology,How do I implement a binary search algorithm?,0,True,0.167,0.3478,0,Binary search works by repeatedly dividing the search interval in half.,True,0.3478,0.3478,0.3478,0.3478,"[0.3478, 0.3478, 0.3478, 0.3478, 0.3478]",,2025-10-11T12:01:03.036417
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,medicine,What are the symptoms of diabetes?,0,True,0.161,-0.3302,0,Common diabetes symptoms include increased thirst and frequent urination.,True,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:03.203664
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,law,What is the statute of limitations for fraud?,0,True,0.161,-0.3302,0,Fraud cases typically have a statute of limitations between 3-6 years.,True,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:03.365364
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,cooking,How do you make a perfect risotto?,0,True,0.156,0.3478,0,Risotto requires constant stirring and gradual addition of warm broth.,True,0.3478,0.3478,0.3478,0.3478,"[0.3478, 0.3478, 0.3478, 0.3478, 0.3478]",,2025-10-11T12:01:03.526338
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,finance,What is compound interest?,0,True,0.153,-0.3302,0,Compound interest is interest calculated on initial principal and accumulated interest.,True,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:03.683894
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,history,When did World War II end?,0,True,0.156,-1.3275,0,World War II ended in 1945 with the surrender of Japan.,True,-1.3275,-1.3275,-1.3275,-1.3275,"[-1.3275, -1.3275, -1.3275, -1.3275, -1.3275]",,2025-10-11T12:01:03.836831
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,sports,What are the rules of offside in soccer?,0,True,0.159,-0.3302,0,A player is offside if they're closer to goal than the ball and second-last opponent.,True,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:03.992866
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,literature,Who wrote Pride and Prejudice?,0,True,0.162,-0.0049,0,Pride and Prejudice was written by Jane Austen in 1813.,True,-0.0049,-0.0049,-0.0049,-0.0049,"[-0.0049, -0.0049, -0.0049, -0.0049, -0.0049]",,2025-10-11T12:01:04.152475
-mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,science,What is photosynthesis?,0,True,0.166,-0.3302,0,Photosynthesis is the process plants use to convert light into chemical energy.,True,-0.3302,-0.3302,-0.3302,-0.3302,"[-0.3302, -0.3302, -0.3302, -0.3302, -0.3302]",,2025-10-11T12:01:04.315051
+model_name,model_size_mb,domain,success,response_time_seconds,correct_answer
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,geography,TRUE,0.161,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,technology,TRUE,0.132,FALSE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,medicine,TRUE,0.131,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,law,TRUE,0.131,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,cooking,TRUE,0.133,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,finance,TRUE,0.129,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,history,TRUE,0.132,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,sports,TRUE,0.143,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,literature,TRUE,0.141,TRUE
+Qwen3-Reranker-0.6B-F16.gguf,1142.15,science,TRUE,0.13,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,geography,TRUE,0.175,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,technology,TRUE,0.16,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,medicine,TRUE,0.157,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,law,TRUE,0.173,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,cooking,TRUE,0.173,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,finance,TRUE,0.158,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,history,TRUE,0.167,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,sports,TRUE,0.171,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,literature,TRUE,0.161,TRUE
+Qwen3-Reranker-0.6B-Q4_K_M.gguf,378.11,science,TRUE,0.16,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,geography,TRUE,0.163,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,technology,TRUE,0.153,FALSE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,medicine,TRUE,0.149,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,law,TRUE,0.154,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,cooking,TRUE,0.17,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,finance,TRUE,0.152,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,history,TRUE,0.154,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,sports,TRUE,0.168,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,literature,TRUE,0.159,TRUE
+Qwen3-Reranker-0.6B-Q8_0.gguf,609.54,science,TRUE,0.161,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,geography,TRUE,0.742,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,technology,TRUE,0.709,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,medicine,TRUE,0.707,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,law,TRUE,0.71,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,cooking,TRUE,0.72,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,finance,TRUE,0.719,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,history,TRUE,0.726,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,sports,TRUE,0.784,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,literature,TRUE,0.749,TRUE
+Qwen3-Reranker-4B-F16.gguf,7677,science,TRUE,0.712,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,geography,TRUE,0.808,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,technology,TRUE,0.773,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,medicine,TRUE,0.774,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,law,TRUE,0.776,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,cooking,TRUE,0.778,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,finance,TRUE,0.776,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,history,TRUE,0.777,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,sports,TRUE,0.851,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,literature,TRUE,0.804,TRUE
+Qwen3-Reranker-4B-Q4_K_M.gguf,2381.06,science,TRUE,0.765,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,geography,TRUE,0.76,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,technology,TRUE,0.73,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,medicine,TRUE,0.727,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,law,TRUE,0.739,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,cooking,TRUE,0.733,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,finance,TRUE,0.728,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,history,TRUE,0.731,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,sports,TRUE,0.793,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,literature,TRUE,0.76,TRUE
+Qwen3-Reranker-4B-Q8_0.gguf,4081.42,science,TRUE,0.726,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,geography,TRUE,1.249,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,technology,TRUE,1.268,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,medicine,TRUE,1.247,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,law,TRUE,1.27,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,cooking,TRUE,1.257,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,finance,TRUE,1.241,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,history,TRUE,1.264,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,sports,TRUE,1.407,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,literature,TRUE,1.351,TRUE
+Qwen3-Reranker-8B-F16.gguf,14439.78,science,TRUE,1.299,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,geography,TRUE,1.381,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,technology,TRUE,1.392,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,medicine,TRUE,1.416,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,law,TRUE,1.447,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,cooking,TRUE,1.453,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,finance,TRUE,1.467,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,history,TRUE,1.489,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,sports,TRUE,1.678,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,literature,TRUE,1.603,TRUE
+Qwen3-Reranker-8B-Q4_K_M.gguf,4460.17,science,TRUE,1.518,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,geography,TRUE,1.345,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,technology,TRUE,1.366,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,medicine,TRUE,1.388,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,law,TRUE,1.405,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,cooking,TRUE,1.417,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,finance,TRUE,1.425,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,history,TRUE,1.441,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,sports,TRUE,1.608,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,literature,TRUE,1.535,TRUE
+Qwen3-Reranker-8B-Q8_0.gguf,7674.35,science,TRUE,1.454,TRUE
+bge-reranker-base-F16.gguf,537.82,geography,TRUE,0.079,FALSE
+bge-reranker-base-F16.gguf,537.82,technology,TRUE,0.05,TRUE
+bge-reranker-base-F16.gguf,537.82,medicine,TRUE,0.045,TRUE
+bge-reranker-base-F16.gguf,537.82,law,TRUE,0.045,TRUE
+bge-reranker-base-F16.gguf,537.82,cooking,TRUE,0.038,TRUE
+bge-reranker-base-F16.gguf,537.82,finance,TRUE,0.033,TRUE
+bge-reranker-base-F16.gguf,537.82,history,TRUE,0.027,FALSE
+bge-reranker-base-F16.gguf,537.82,sports,TRUE,0.025,TRUE
+bge-reranker-base-F16.gguf,537.82,literature,TRUE,0.025,FALSE
+bge-reranker-base-F16.gguf,537.82,science,TRUE,0.024,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,geography,TRUE,0.072,FALSE
+bge-reranker-base-Q4_K_M.gguf,208.92,technology,TRUE,0.049,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,medicine,TRUE,0.057,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,law,TRUE,0.042,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,cooking,TRUE,0.039,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,finance,TRUE,0.027,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,history,TRUE,0.025,FALSE
+bge-reranker-base-Q4_K_M.gguf,208.92,sports,TRUE,0.028,TRUE
+bge-reranker-base-Q4_K_M.gguf,208.92,literature,TRUE,0.025,FALSE
+bge-reranker-base-Q4_K_M.gguf,208.92,science,TRUE,0.023,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,geography,TRUE,0.073,FALSE
+bge-reranker-base-Q8_0.gguf,289.7,technology,TRUE,0.049,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,medicine,TRUE,0.051,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,law,TRUE,0.035,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,cooking,TRUE,0.034,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,finance,TRUE,0.027,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,history,TRUE,0.025,FALSE
+bge-reranker-base-Q8_0.gguf,289.7,sports,TRUE,0.026,TRUE
+bge-reranker-base-Q8_0.gguf,289.7,literature,TRUE,0.023,FALSE
+bge-reranker-base-Q8_0.gguf,289.7,science,TRUE,0.022,TRUE
+bge-reranker-large-F16.gguf,1076.05,geography,TRUE,0.101,FALSE
+bge-reranker-large-F16.gguf,1076.05,technology,TRUE,0.089,TRUE
+bge-reranker-large-F16.gguf,1076.05,medicine,TRUE,0.053,TRUE
+bge-reranker-large-F16.gguf,1076.05,law,TRUE,0.056,TRUE
+bge-reranker-large-F16.gguf,1076.05,cooking,TRUE,0.054,TRUE
+bge-reranker-large-F16.gguf,1076.05,finance,TRUE,0.053,TRUE
+bge-reranker-large-F16.gguf,1076.05,history,TRUE,0.056,FALSE
+bge-reranker-large-F16.gguf,1076.05,sports,TRUE,0.063,TRUE
+bge-reranker-large-F16.gguf,1076.05,literature,TRUE,0.055,TRUE
+bge-reranker-large-F16.gguf,1076.05,science,TRUE,0.054,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,geography,TRUE,0.106,FALSE
+bge-reranker-large-Q4_K_M.gguf,388.07,technology,TRUE,0.093,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,medicine,TRUE,0.062,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,law,TRUE,0.06,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,cooking,TRUE,0.056,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,finance,TRUE,0.053,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,history,TRUE,0.057,FALSE
+bge-reranker-large-Q4_K_M.gguf,388.07,sports,TRUE,0.066,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,literature,TRUE,0.056,TRUE
+bge-reranker-large-Q4_K_M.gguf,388.07,science,TRUE,0.053,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,geography,TRUE,0.145,FALSE
+bge-reranker-large-Q8_0.gguf,576.23,technology,TRUE,0.101,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,medicine,TRUE,0.077,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,law,TRUE,0.059,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,cooking,TRUE,0.054,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,finance,TRUE,0.053,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,history,TRUE,0.062,FALSE
+bge-reranker-large-Q8_0.gguf,576.23,sports,TRUE,0.059,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,literature,TRUE,0.055,TRUE
+bge-reranker-large-Q8_0.gguf,576.23,science,TRUE,0.05,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,geography,TRUE,0.094,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,technology,TRUE,0.088,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,medicine,TRUE,0.055,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,law,TRUE,0.058,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,cooking,TRUE,0.054,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,finance,TRUE,0.054,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,history,TRUE,0.058,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,sports,TRUE,0.061,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,literature,TRUE,0.056,TRUE
+bge-reranker-v2-m3-F16.gguf,1106.05,science,TRUE,0.056,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,geography,TRUE,0.109,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,technology,TRUE,0.089,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,medicine,TRUE,0.055,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,law,TRUE,0.062,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,cooking,TRUE,0.118,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,finance,TRUE,0.057,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,history,TRUE,0.063,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,sports,TRUE,0.063,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,literature,TRUE,0.055,TRUE
+bge-reranker-v2-m3-Q4_K_M.gguf,418.07,science,TRUE,0.052,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,geography,TRUE,0.131,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,technology,TRUE,0.113,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,medicine,TRUE,0.067,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,law,TRUE,0.061,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,cooking,TRUE,0.053,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,finance,TRUE,0.051,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,history,TRUE,0.058,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,sports,TRUE,0.059,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,literature,TRUE,0.052,TRUE
+bge-reranker-v2-m3-Q8_0.gguf,606.23,science,TRUE,0.052,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,geography,TRUE,0.044,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,technology,TRUE,0.045,FALSE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,medicine,TRUE,0.036,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,law,TRUE,0.021,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,cooking,TRUE,0.047,FALSE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,finance,TRUE,0.02,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,history,TRUE,0.025,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,sports,TRUE,0.016,FALSE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,literature,TRUE,0.014,TRUE
+jina-reranker-v1-tiny-en-F16.gguf,64.38,science,TRUE,0.01,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,geography,TRUE,0.039,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,technology,TRUE,0.043,FALSE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,medicine,TRUE,0.04,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,law,TRUE,0.031,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,cooking,TRUE,0.044,FALSE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,finance,TRUE,0.023,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,history,TRUE,0.011,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,sports,TRUE,0.014,FALSE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,literature,TRUE,0.01,TRUE
+jina-reranker-v1-tiny-en-Q4_K_M.gguf,31.72,science,TRUE,0.012,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,geography,TRUE,0.067,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,technology,TRUE,0.058,FALSE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,medicine,TRUE,0.025,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,law,TRUE,0.037,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,cooking,TRUE,0.018,FALSE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,finance,TRUE,0.014,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,history,TRUE,0.014,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,sports,TRUE,0.015,FALSE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,literature,TRUE,0.01,TRUE
+jina-reranker-v1-tiny-en-Q8_0.gguf,34.98,science,TRUE,0.009,TRUE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,geography,TRUE,0.047,TRUE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,technology,TRUE,0.038,FALSE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,medicine,TRUE,0.024,TRUE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,law,TRUE,0.027,FALSE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,cooking,TRUE,0.049,FALSE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,finance,TRUE,0.019,FALSE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,history,TRUE,0.016,TRUE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,sports,TRUE,0.02,FALSE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,literature,TRUE,0.017,TRUE
+jina-reranker-v1-turbo-en-F16.gguf,73.4,science,TRUE,0.012,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,geography,TRUE,0.053,TRUE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,technology,TRUE,0.052,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,medicine,TRUE,0.025,TRUE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,law,TRUE,0.021,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,cooking,TRUE,0.02,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,finance,TRUE,0.014,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,history,TRUE,0.015,TRUE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,sports,TRUE,0.015,FALSE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,literature,TRUE,0.015,TRUE
+jina-reranker-v1-turbo-en-Q4_K_M.gguf,34.7,science,TRUE,0.013,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,geography,TRUE,0.053,TRUE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,technology,TRUE,0.05,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,medicine,TRUE,0.029,TRUE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,law,TRUE,0.015,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,cooking,TRUE,0.023,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,finance,TRUE,0.012,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,history,TRUE,0.014,TRUE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,sports,TRUE,0.015,FALSE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,literature,TRUE,0.016,TRUE
+jina-reranker-v1-turbo-en-Q8_0.gguf,39.79,science,TRUE,0.015,FALSE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,geography,TRUE,0.074,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,technology,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,medicine,TRUE,0.041,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,law,TRUE,0.038,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,cooking,TRUE,0.025,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,finance,TRUE,0.026,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,history,TRUE,0.025,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,sports,TRUE,0.028,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,literature,TRUE,0.024,TRUE
+jina-reranker-v2-base-multilingual-F16.gguf,539.32,science,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,geography,TRUE,0.082,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,technology,TRUE,0.048,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,medicine,TRUE,0.047,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,law,TRUE,0.038,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,cooking,TRUE,0.036,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,finance,TRUE,0.033,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,history,TRUE,0.027,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,sports,TRUE,0.025,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,literature,TRUE,0.024,TRUE
+jina-reranker-v2-base-multilingual-Q4_K_M.gguf,212.08,science,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,geography,TRUE,0.075,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,technology,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,medicine,TRUE,0.042,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,law,TRUE,0.039,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,cooking,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,finance,TRUE,0.024,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,history,TRUE,0.025,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,sports,TRUE,0.027,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,literature,TRUE,0.023,TRUE
+jina-reranker-v2-base-multilingual-Q8_0.gguf,291.19,science,TRUE,0.021,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,geography,TRUE,0.057,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,technology,TRUE,0.037,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,medicine,TRUE,0.039,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,law,TRUE,0.022,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,cooking,TRUE,0.039,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,finance,TRUE,0.041,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,history,TRUE,0.024,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,sports,TRUE,0.03,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,literature,TRUE,0.022,TRUE
+ms-marco-MiniLM-L12-v2-F16.gguf,64.45,science,TRUE,0.022,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,geography,TRUE,0.053,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,technology,TRUE,0.038,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,medicine,TRUE,0.035,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,law,TRUE,0.025,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,cooking,TRUE,0.043,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,finance,TRUE,0.024,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,history,TRUE,0.022,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,sports,TRUE,0.02,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,literature,TRUE,0.017,TRUE
+ms-marco-MiniLM-L12-v2-Q4_K_M.gguf,27.74,science,TRUE,0.016,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,geography,TRUE,0.054,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,technology,TRUE,0.035,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,medicine,TRUE,0.04,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,law,TRUE,0.036,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,cooking,TRUE,0.026,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,finance,TRUE,0.026,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,history,TRUE,0.022,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,sports,TRUE,0.02,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,literature,TRUE,0.017,TRUE
+ms-marco-MiniLM-L12-v2-Q8_0.gguf,34.99,science,TRUE,0.015,TRUE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,geography,TRUE,0.031,FALSE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,technology,TRUE,0.017,FALSE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,medicine,TRUE,0.029,TRUE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,law,TRUE,0.011,TRUE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,cooking,TRUE,0.029,TRUE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,finance,TRUE,0.021,FALSE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,history,TRUE,0.016,FALSE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,sports,TRUE,0.015,TRUE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,literature,TRUE,0.013,FALSE
+ms-marco-MiniLM-L2-v2-F16.gguf,30.5,science,TRUE,0.008,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,geography,TRUE,0.029,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,technology,TRUE,0.017,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,medicine,TRUE,0.032,TRUE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,law,TRUE,0.014,TRUE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,cooking,TRUE,0.032,TRUE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,finance,TRUE,0.016,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,history,TRUE,0.026,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,sports,TRUE,0.011,TRUE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,literature,TRUE,0.012,FALSE
+ms-marco-MiniLM-L2-v2-Q4_K_M.gguf,15.65,science,TRUE,0.008,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,geography,TRUE,0.036,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,technology,TRUE,0.014,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,medicine,TRUE,0.026,TRUE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,law,TRUE,0.015,TRUE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,cooking,TRUE,0.029,TRUE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,finance,TRUE,0.016,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,history,TRUE,0.025,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,sports,TRUE,0.013,TRUE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,literature,TRUE,0.014,FALSE
+ms-marco-MiniLM-L2-v2-Q8_0.gguf,16.86,science,TRUE,0.01,FALSE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,geography,TRUE,0.04,TRUE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,technology,TRUE,0.036,TRUE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,medicine,TRUE,0.048,FALSE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,law,TRUE,0.039,TRUE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,cooking,TRUE,0.032,FALSE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,finance,TRUE,0.019,TRUE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,history,TRUE,0.014,FALSE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,sports,TRUE,0.013,FALSE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,literature,TRUE,0.01,TRUE
+ms-marco-MiniLM-L4-v2-F16.gguf,37.29,science,TRUE,0.009,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,geography,TRUE,0.038,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,technology,TRUE,0.027,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,medicine,TRUE,0.011,FALSE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,law,TRUE,0.01,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,cooking,TRUE,0.027,FALSE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,finance,TRUE,0.01,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,history,TRUE,0.01,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,sports,TRUE,0.021,FALSE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,literature,TRUE,0.011,TRUE
+ms-marco-MiniLM-L4-v2-Q4_K_M.gguf,18.07,science,TRUE,0.021,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,geography,TRUE,0.041,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,technology,TRUE,0.033,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,medicine,TRUE,0.033,FALSE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,law,TRUE,0.037,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,cooking,TRUE,0.022,FALSE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,finance,TRUE,0.011,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,history,TRUE,0.011,FALSE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,sports,TRUE,0.009,FALSE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,literature,TRUE,0.012,TRUE
+ms-marco-MiniLM-L4-v2-Q8_0.gguf,20.48,science,TRUE,0.011,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,geography,TRUE,0.036,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,technology,TRUE,0.014,FALSE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,medicine,TRUE,0.027,FALSE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,law,TRUE,0.013,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,cooking,TRUE,0.027,FALSE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,finance,TRUE,0.016,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,history,TRUE,0.024,FALSE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,sports,TRUE,0.016,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,literature,TRUE,0.015,TRUE
+ms-marco-MiniLM-L6-v2-F16.gguf,44.08,science,TRUE,0.016,FALSE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,geography,TRUE,0.048,TRUE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,technology,TRUE,0.03,FALSE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,medicine,TRUE,0.015,FALSE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,law,TRUE,0.028,TRUE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,cooking,TRUE,0.015,FALSE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,finance,TRUE,0.03,TRUE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,history,TRUE,0.013,FALSE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,sports,TRUE,0.016,TRUE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,literature,TRUE,0.016,TRUE
+ms-marco-MiniLM-L6-v2-Q4_K_M.gguf,20.29,science,TRUE,0.015,TRUE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,geography,TRUE,0.047,FALSE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,technology,TRUE,0.029,FALSE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,medicine,TRUE,0.014,FALSE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,law,TRUE,0.03,TRUE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,cooking,TRUE,0.015,FALSE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,finance,TRUE,0.028,TRUE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,history,TRUE,0.014,FALSE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,sports,TRUE,0.014,TRUE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,literature,TRUE,0.015,TRUE
+ms-marco-MiniLM-L6-v2-Q8_0.gguf,24.11,science,TRUE,0.018,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,geography,TRUE,0.03,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,technology,TRUE,0.008,TRUE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,medicine,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,law,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,cooking,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,finance,TRUE,0.019,TRUE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,history,TRUE,0.017,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,sports,TRUE,0.018,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,literature,TRUE,0.017,FALSE
+ms-marco-TinyBERT-L2-F16.gguf,9.07,science,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,geography,TRUE,0.029,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,technology,TRUE,0.012,TRUE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,medicine,TRUE,0.01,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,law,TRUE,0.024,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,cooking,TRUE,0.009,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,finance,TRUE,0.025,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,history,TRUE,0.009,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,sports,TRUE,0.025,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,literature,TRUE,0.008,FALSE
+ms-marco-TinyBERT-L2-Q4_K_M.gguf,5.09,science,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,geography,TRUE,0.033,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,technology,TRUE,0.011,TRUE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,medicine,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,law,TRUE,0.017,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,cooking,TRUE,0.008,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,finance,TRUE,0.023,TRUE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,history,TRUE,0.016,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,sports,TRUE,0.019,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,literature,TRUE,0.009,FALSE
+ms-marco-TinyBERT-L2-Q8_0.gguf,5.22,science,TRUE,0.015,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,geography,TRUE,0.024,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,technology,TRUE,0.011,TRUE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,medicine,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,law,TRUE,0.021,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,cooking,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,finance,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,history,TRUE,0.023,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,sports,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,literature,TRUE,0.016,FALSE
+ms-marco-TinyBERT-L2-v2-F16.gguf,9.07,science,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,geography,TRUE,0.031,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,technology,TRUE,0.014,TRUE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,medicine,TRUE,0.008,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,law,TRUE,0.016,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,cooking,TRUE,0.015,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,finance,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,history,TRUE,0.01,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,sports,TRUE,0.017,TRUE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,literature,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L2-v2-Q4_K_M.gguf,5.09,science,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,geography,TRUE,0.032,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,technology,TRUE,0.013,TRUE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,medicine,TRUE,0.008,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,law,TRUE,0.028,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,cooking,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,finance,TRUE,0.008,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,history,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,sports,TRUE,0.01,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,literature,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L2-v2-Q8_0.gguf,5.22,science,TRUE,0.018,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,geography,TRUE,0.05,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,technology,TRUE,0.023,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,medicine,TRUE,0.013,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,law,TRUE,0.028,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,cooking,TRUE,0.011,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,finance,TRUE,0.012,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,history,TRUE,0.025,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,sports,TRUE,0.013,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,literature,TRUE,0.013,FALSE
+ms-marco-TinyBERT-L4-F16.gguf,28.13,science,TRUE,0.013,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,geography,TRUE,0.059,TRUE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,technology,TRUE,0.036,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,medicine,TRUE,0.035,TRUE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,law,TRUE,0.022,TRUE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,cooking,TRUE,0.035,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,finance,TRUE,0.024,TRUE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,history,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,sports,TRUE,0.022,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,literature,TRUE,0.025,FALSE
+ms-marco-TinyBERT-L6-F16.gguf,128.06,science,TRUE,0.02,TRUE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,geography,TRUE,0.077,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,technology,TRUE,0.021,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,medicine,TRUE,0.033,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,law,TRUE,0.033,TRUE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,cooking,TRUE,0.037,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,finance,TRUE,0.031,TRUE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,history,TRUE,0.021,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,sports,TRUE,0.026,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,literature,TRUE,0.02,FALSE
+ms-marco-TinyBERT-L6-Q4_K_M.gguf,44.92,science,TRUE,0.016,TRUE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,geography,TRUE,0.05,TRUE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,technology,TRUE,0.034,FALSE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,medicine,TRUE,0.034,TRUE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,law,TRUE,0.028,TRUE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,cooking,TRUE,0.027,FALSE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,finance,TRUE,0.023,TRUE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,history,TRUE,0.017,FALSE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,sports,TRUE,0.022,FALSE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,literature,TRUE,0.018,FALSE
+ms-marco-TinyBERT-L6-Q8_0.gguf,69.13,science,TRUE,0.018,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,geography,TRUE,0.095,FALSE
+mxbai-rerank-base-v2-F16.gguf,948.1,technology,TRUE,0.084,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,medicine,TRUE,0.08,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,law,TRUE,0.083,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,cooking,TRUE,0.083,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,finance,TRUE,0.081,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,history,TRUE,0.084,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,sports,TRUE,0.082,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,literature,TRUE,0.082,TRUE
+mxbai-rerank-base-v2-F16.gguf,948.1,science,TRUE,0.085,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,geography,TRUE,0.091,FALSE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,technology,TRUE,0.076,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,medicine,TRUE,0.078,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,law,TRUE,0.081,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,cooking,TRUE,0.081,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,finance,TRUE,0.087,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,history,TRUE,0.075,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,sports,TRUE,0.072,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,literature,TRUE,0.085,TRUE
+mxbai-rerank-base-v2-Q4_K_M.gguf,379.38,science,TRUE,0.078,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,geography,TRUE,0.086,FALSE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,technology,TRUE,0.075,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,medicine,TRUE,0.08,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,law,TRUE,0.079,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,cooking,TRUE,0.08,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,finance,TRUE,0.074,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,history,TRUE,0.081,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,sports,TRUE,0.076,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,literature,TRUE,0.078,TRUE
+mxbai-rerank-base-v2-Q8_0.gguf,506.47,science,TRUE,0.08,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,geography,TRUE,0.183,FALSE
+mxbai-rerank-large-v2-F16.gguf,2950.35,technology,TRUE,0.152,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,medicine,TRUE,0.148,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,law,TRUE,0.147,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,cooking,TRUE,0.146,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,finance,TRUE,0.149,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,history,TRUE,0.146,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,sports,TRUE,0.145,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,literature,TRUE,0.145,TRUE
+mxbai-rerank-large-v2-F16.gguf,2950.35,science,TRUE,0.15,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,geography,TRUE,0.187,FALSE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,technology,TRUE,0.168,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,medicine,TRUE,0.169,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,law,TRUE,0.169,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,cooking,TRUE,0.161,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,finance,TRUE,0.171,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,history,TRUE,0.157,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,sports,TRUE,0.159,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,literature,TRUE,0.154,TRUE
+mxbai-rerank-large-v2-Q4_K_M.gguf,940.37,science,TRUE,0.154,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,geography,TRUE,0.188,FALSE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,technology,TRUE,0.145,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,medicine,TRUE,0.146,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,law,TRUE,0.145,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,cooking,TRUE,0.142,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,finance,TRUE,0.145,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,history,TRUE,0.143,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,sports,TRUE,0.144,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,literature,TRUE,0.146,TRUE
+mxbai-rerank-large-v2-Q8_0.gguf,1570.3,science,TRUE,0.147,TRUE
