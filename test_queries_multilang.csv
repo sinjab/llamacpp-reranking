@@ -1,0 +1,61 @@
+language,domain,query,doc1,doc2,doc3,doc4,doc5,correct_doc_index
+en,geography,What is the capital of France?,London is the capital of England,Tokyo is in Asia,Berlin is in Germany,Paris is the capital of France,Rome is in Italy,4
+en,technology,What is the programming language Python used for?,Python is a snake species,Python is used for data science and web development,Python is a British comedy group,Python is a type of fabric,Python is a mathematical constant,2
+en,medicine,What is the primary function of red blood cells?,Red blood cells fight infections,Red blood cells carry oxygen throughout the body,Red blood cells produce hormones,Red blood cells digest food,Red blood cells store memories,2
+en,law,What is the highest court in the United States?,Supreme Court is the highest court,District Court handles local cases,Appeals Court reviews decisions,Family Court handles domestic issues,Traffic Court handles violations,1
+en,cooking,What is the main ingredient in guacamole?,Tomatoes are the main ingredient,Avocados are the main ingredient in guacamole,Onions are used in many dishes,Peppers add spice to food,Lettuce is used in salads,2
+en,finance,What does GDP stand for?,Gross Domestic Product measures economic output,General Development Plan,Global Distribution Platform,Government Debt Percentage,Grand Digital Portfolio,1
+en,history,Who was the first President of the United States?,Thomas Jefferson wrote the declaration,George Washington was the first President,Abraham Lincoln freed the slaves,John Adams was second president,Benjamin Franklin was a founding father,2
+en,sports,How many players are on a soccer team?,Basketball has 5 players,Soccer teams have 11 players on the field,Baseball has 9 players,Hockey has 6 players,Volleyball has 6 players,2
+en,literature,Who wrote Romeo and Juliet?,Charles Dickens wrote many novels,William Shakespeare wrote Romeo and Juliet,Jane Austen wrote Pride and Prejudice,Mark Twain wrote Tom Sawyer,Ernest Hemingway wrote The Old Man and the Sea,2
+en,science,What is the chemical symbol for water?,CO2 is carbon dioxide,H2O is the chemical symbol for water,NaCl is salt,O2 is oxygen,He is helium,2
+fr,geography,Quelle est la capitale de la France?,Londres est la capitale de l'Angleterre,Tokyo est en Asie,Berlin est en Allemagne,Paris est la capitale de la France,Rome est en Italie,4
+fr,technology,À quoi sert le langage de programmation Python?,Python est une espèce de serpent,Python est utilisé pour la science des données et le développement web,Python est un groupe comique britannique,Python est un type de tissu,Python est une constante mathématique,2
+fr,medicine,Quelle est la fonction principale des globules rouges?,Les globules rouges combattent les infections,Les globules rouges transportent l'oxygène dans tout le corps,Les globules rouges produisent des hormones,Les globules rouges digèrent les aliments,Les globules rouges stockent les souvenirs,2
+fr,law,Quelle est la plus haute juridiction en France?,Le Conseil d'État traite les affaires administratives,Le Conseil constitutionnel vérifie les lois,La Cour de cassation est la plus haute juridiction judiciaire,Le Tribunal de grande instance traite les affaires civiles,Le Tribunal correctionnel juge les délits,3
+fr,cooking,Quel est l'ingrédient principal du guacamole?,Les tomates sont l'ingrédient principal,Les avocats sont l'ingrédient principal du guacamole,Les oignons sont utilisés dans de nombreux plats,Les poivrons ajoutent du piquant,La laitue est utilisée dans les salades,2
+fr,finance,Que signifie PIB?,Le Produit Intérieur Brut mesure la production économique,Plan Industriel de Base,Plateforme d'Investissement Bancaire,Pourcentage d'Inflation Budgétaire,Portfolio International de Bourse,1
+fr,history,Qui était le premier président des États-Unis?,Thomas Jefferson a écrit la déclaration,George Washington était le premier président,Abraham Lincoln a libéré les esclaves,John Adams était le deuxième président,Benjamin Franklin était un père fondateur,2
+fr,sports,Combien de joueurs y a-t-il dans une équipe de football?,Le basketball a 5 joueurs,Les équipes de football ont 11 joueurs sur le terrain,Le baseball a 9 joueurs,Le hockey a 6 joueurs,Le volleyball a 6 joueurs,2
+fr,literature,Qui a écrit Roméo et Juliette?,Charles Dickens a écrit de nombreux romans,William Shakespeare a écrit Roméo et Juliette,Jane Austen a écrit Orgueil et Préjugés,Mark Twain a écrit Tom Sawyer,Ernest Hemingway a écrit Le Vieil Homme et la Mer,2
+fr,science,Quel est le symbole chimique de l'eau?,CO2 est le dioxyde de carbone,H2O est le symbole chimique de l'eau,NaCl est le sel,O2 est l'oxygène,He est l'hélium,2
+de,geography,Was ist die Hauptstadt von Frankreich?,London ist die Hauptstadt von England,Tokio liegt in Asien,Berlin liegt in Deutschland,Paris ist die Hauptstadt von Frankreich,Rom liegt in Italien,4
+de,technology,Wofür wird die Programmiersprache Python verwendet?,Python ist eine Schlangenart,Python wird für Datenwissenschaft und Webentwicklung verwendet,Python ist eine britische Comedy-Gruppe,Python ist eine Stoffart,Python ist eine mathematische Konstante,2
+de,medicine,Was ist die Hauptfunktion der roten Blutkörperchen?,Rote Blutkörperchen bekämpfen Infektionen,Rote Blutkörperchen transportieren Sauerstoff durch den Körper,Rote Blutkörperchen produzieren Hormone,Rote Blutkörperchen verdauen Nahrung,Rote Blutkörperchen speichern Erinnerungen,2
+de,law,Was ist das höchste Gericht in Deutschland?,Der Bundesgerichtshof ist das höchste Zivilgericht,Das Bundesverfassungsgericht ist das höchste deutsche Gericht,Das Landgericht behandelt regionale Fälle,Das Amtsgericht behandelt kleinere Fälle,Das Oberlandesgericht ist ein Berufungsgericht,2
+de,cooking,Was ist die Hauptzutat von Guacamole?,Tomaten sind die Hauptzutat,Avocados sind die Hauptzutat von Guacamole,Zwiebeln werden in vielen Gerichten verwendet,Paprika fügt Schärfe hinzu,Salat wird in Salaten verwendet,2
+de,finance,Wofür steht BIP?,Das Bruttoinlandsprodukt misst die Wirtschaftsleistung,Bundesweiter Investitionsplan,Bankinterne Plattform,Budgetierter Inflationsprozentsatz,Börsen Investment Portfolio,1
+de,history,Wer war der erste Präsident der Vereinigten Staaten?,Thomas Jefferson schrieb die Erklärung,George Washington war der erste Präsident,Abraham Lincoln befreite die Sklaven,John Adams war der zweite Präsident,Benjamin Franklin war ein Gründervater,2
+de,sports,Wie viele Spieler hat ein Fußballteam?,Basketball hat 5 Spieler,Fußballteams haben 11 Spieler auf dem Feld,Baseball hat 9 Spieler,Eishockey hat 6 Spieler,Volleyball hat 6 Spieler,2
+de,literature,Wer hat Romeo und Julia geschrieben?,Charles Dickens schrieb viele Romane,William Shakespeare schrieb Romeo und Julia,Jane Austen schrieb Stolz und Vorurteil,Mark Twain schrieb Tom Sawyer,Ernest Hemingway schrieb Der alte Mann und das Meer,2
+de,science,Was ist das chemische Symbol für Wasser?,CO2 ist Kohlendioxid,H2O ist das chemische Symbol für Wasser,NaCl ist Salz,O2 ist Sauerstoff,He ist Helium,2
+es,geography,¿Cuál es la capital de Francia?,Londres es la capital de Inglaterra,Tokio está en Asia,Berlín está en Alemania,París es la capital de Francia,Roma está en Italia,4
+es,technology,¿Para qué se utiliza el lenguaje de programación Python?,Python es una especie de serpiente,Python se utiliza para ciencia de datos y desarrollo web,Python es un grupo de comedia británico,Python es un tipo de tela,Python es una constante matemática,2
+es,medicine,¿Cuál es la función principal de los glóbulos rojos?,Los glóbulos rojos combaten infecciones,Los glóbulos rojos transportan oxígeno por todo el cuerpo,Los glóbulos rojos producen hormonas,Los glóbulos rojos digieren alimentos,Los glóbulos rojos almacenan recuerdos,2
+es,law,¿Cuál es el tribunal más alto en España?,La Audiencia Nacional trata casos importantes,El Tribunal Supremo es el más alto tribunal de España,El Tribunal Constitucional revisa las leyes,El Juzgado de Primera Instancia trata casos civiles,El Juzgado de lo Penal juzga delitos,2
+es,cooking,¿Cuál es el ingrediente principal del guacamole?,Los tomates son el ingrediente principal,Los aguacates son el ingrediente principal del guacamole,Las cebollas se usan en muchos platos,Los pimientos añaden picante,La lechuga se usa en ensaladas,2
+es,finance,¿Qué significa PIB?,El Producto Interior Bruto mide la producción económica,Plan de Inversión Básica,Plataforma de Inversión Bancaria,Porcentaje de Inflación Budgetaria,Portafolio de Inversión Bursátil,1
+es,history,¿Quién fue el primer presidente de los Estados Unidos?,Thomas Jefferson escribió la declaración,George Washington fue el primer presidente,Abraham Lincoln liberó a los esclavos,John Adams fue el segundo presidente,Benjamin Franklin fue un padre fundador,2
+es,sports,¿Cuántos jugadores hay en un equipo de fútbol?,El baloncesto tiene 5 jugadores,Los equipos de fútbol tienen 11 jugadores en el campo,El béisbol tiene 9 jugadores,El hockey tiene 6 jugadores,El voleibol tiene 6 jugadores,2
+es,literature,¿Quién escribió Romeo y Julieta?,Charles Dickens escribió muchas novelas,William Shakespeare escribió Romeo y Julieta,Jane Austen escribió Orgullo y Prejuicio,Mark Twain escribió Tom Sawyer,Ernest Hemingway escribió El viejo y el mar,2
+es,science,¿Cuál es el símbolo químico del agua?,CO2 es dióxido de carbono,H2O es el símbolo químico del agua,NaCl es sal,O2 es oxígeno,He es helio,2
+ar,geography,ما هي عاصمة فرنسا؟,لندن هي عاصمة إنجلترا,طوكيو في آسيا,برلين في ألمانيا,باريس هي عاصمة فرنسا,روما في إيطاليا,4
+ar,technology,ما هي استخدامات لغة البرمجة بايثون؟,بايثون نوع من الثعابين,يستخدم بايثون في علم البيانات وتطوير الويب,بايثون مجموعة كوميدية بريطانية,بايثون نوع من القماش,بايثون ثابت رياضي,2
+ar,medicine,ما هي الوظيفة الأساسية لخلايا الدم الحمراء؟,خلايا الدم الحمراء تحارب العدوى,خلايا الدم الحمراء تنقل الأكسجين في جميع أنحاء الجسم,خلايا الدم الحمراء تنتج الهرمونات,خلايا الدم الحمراء تهضم الطعام,خلايا الدم الحمراء تخزن الذكريات,2
+ar,law,ما هي أعلى محكمة في الولايات المتحدة؟,المحكمة العليا هي أعلى محكمة,محكمة المقاطعة تتعامل مع القضايا المحلية,محكمة الاستئناف تراجع القرارات,محكمة الأسرة تتعامل مع القضايا العائلية,محكمة المرور تتعامل مع المخالفات,1
+ar,cooking,ما هو المكون الرئيسي في الجواكامولي؟,الطماطم هي المكون الرئيسي,الأفوكادو هو المكون الرئيسي في الجواكامولي,البصل يستخدم في العديد من الأطباق,الفلفل يضيف التوابل,الخس يستخدم في السلطات,2
+ar,finance,ماذا يعني الناتج المحلي الإجمالي؟,الناتج المحلي الإجمالي يقيس الإنتاج الاقتصادي,خطة التنمية العامة,منصة التوزيع العالمية,نسبة الدين الحكومي,محفظة رقمية كبرى,1
+ar,history,من كان أول رئيس للولايات المتحدة؟,توماس جيفرسون كتب الإعلان,جورج واشنطن كان أول رئيس,أبراهام لينكولن حرر العبيد,جون آدامز كان الرئيس الثاني,بنجامين فرانكلين كان أحد الآباء المؤسسين,2
+ar,sports,كم عدد اللاعبين في فريق كرة القدم؟,كرة السلة لديها 5 لاعبين,فرق كرة القدم لديها 11 لاعباً في الملعب,البيسبول لديه 9 لاعبين,الهوكي لديه 6 لاعبين,الكرة الطائرة لديها 6 لاعبين,2
+ar,literature,من كتب روميو وجولييت؟,تشارلز ديكنز كتب العديد من الروايات,وليام شكسبير كتب روميو وجولييت,جين أوستن كتبت كبرياء وتحامل,مارك توين كتب توم سوير,إرنست همنغواي كتب الشيخ والبحر,2
+ar,science,ما هو الرمز الكيميائي للماء؟,CO2 هو ثاني أكسيد الكربون,H2O هو الرمز الكيميائي للماء,NaCl هو الملح,O2 هو الأكسجين,He هو الهيليوم,2
+zh,geography,法国的首都是什么？,伦敦是英国的首都,东京在亚洲,柏林在德国,巴黎是法国的首都,罗马在意大利,4
+zh,technology,Python编程语言用于什么？,Python是一种蛇,Python用于数据科学和网络开发,Python是一个英国喜剧团体,Python是一种织物,Python是一个数学常数,2
+zh,medicine,红细胞的主要功能是什么？,红细胞对抗感染,红细胞在全身输送氧气,红细胞产生激素,红细胞消化食物,红细胞存储记忆,2
+zh,law,美国最高法院是什么？,最高法院是最高法院,地区法院处理地方案件,上诉法院审查决定,家庭法院处理家庭问题,交通法院处理违规行为,1
+zh,cooking,鳄梨酱的主要成分是什么？,西红柿是主要成分,鳄梨是鳄梨酱的主要成分,洋葱用于许多菜肴,辣椒增添辛辣,生菜用于沙拉,2
+zh,finance,GDP代表什么？,国内生产总值衡量经济产出,总体发展计划,全球分销平台,政府债务百分比,重大数字投资组合,1
+zh,history,谁是美国第一任总统？,托马斯·杰斐逊写了宣言,乔治·华盛顿是第一任总统,亚伯拉罕·林肯解放了奴隶,约翰·亚当斯是第二任总统,本杰明·富兰克林是开国元勋,2
+zh,sports,足球队有多少名球员？,篮球有5名球员,足球队在场上有11名球员,棒球有9名球员,曲棍球有6名球员,排球有6名球员,2
+zh,literature,谁写了罗密欧与朱丽叶？,查尔斯·狄更斯写了许多小说,威廉·莎士比亚写了罗密欧与朱丽叶,简·奥斯汀写了傲慢与偏见,马克·吐温写了汤姆·索亚,欧内斯特·海明威写了老人与海,2
+zh,science,水的化学符号是什么？,CO2是二氧化碳,H2O是水的化学符号,NaCl是盐,O2是氧气,He是氦气,2
