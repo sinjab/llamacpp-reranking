@@ -45,3 +45,7 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# claude files
+CLAUDE.md
+.claude/
